@@ -78,10 +78,10 @@ export function Testimonial42() {
           
           {/* Header Section */}
           <div className="max-w-md">
-            <p className="text-emerald-500 font-bold uppercase tracking-[0.2em] text-[10px] mb-4">
+            <p className="text-emerald-500 font-bold uppercase tracking-[0.2em] text-[14px] mb-4">
               Results
             </p>
-            <h2 className="text-5xl md:text-7xl font-black text-[#0f172a] mb-6 tracking-tight leading-[1.1]">
+            <h2 className="text-4xl md:text-6xl font-bold text-[#0f172a] mb-6 tracking-tight leading-[1.1]">
               Real growth <br /> from real <br /> businesses
             </h2>
             <p className="text-slate-500 text-lg">
@@ -114,7 +114,7 @@ export function Testimonial42() {
             {/* Background decorative element */}
             <div className="absolute -top-12 -right-12 w-64 h-64 bg-emerald-100/50 rounded-full blur-3xl -z-10"></div>
             
-            <div className="bg-white rounded-[45px] p-10 md:p-14 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.05)] border border-slate-50 transition-all duration-500">
+            <div className="bg-white rounded-[15px] p-10 md:p-14 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.05)] border border-slate-50 transition-all duration-500">
               {/* Star Rating SVG */}
               <div className="flex gap-1 mb-8">
                 {[1, 2, 3, 4, 5].map((i) => (

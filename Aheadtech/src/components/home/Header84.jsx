@@ -15,17 +15,15 @@ export function Header84() {
           <div className="flex flex-col justify-center">
             {/* Badge */}
             <div className="mb-8">
-              <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gray-100 border border-gray-200 text-[14px] font-bold tracking-widest uppercase text-slate-800">
+              <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#27B170] border border-gray-200 text-[14px] font-bold tracking-widest uppercase text-white">
                 <span className="w-2 h-2 rounded-full bg-teal-500"></span>
                 High-Performance Marketing
               </span>
             </div>
 
             {/* Heading */}
-            <h1 className="text-6xl md:text-8xl font-bold text-[#0f172a] leading-[1.1] tracking-tight mb-8">
-              Grow your <br /> 
-              business <br /> 
-              with <span className="bg-gradient-to-r from-[#1e40af] via-[#107b61] to-[#22c55e] bg-clip-text text-transparent">proven <br /> strategies.</span>
+            <h1 className="text-5xl md:text-6xl font-bold text-[#0f172a] leading-[1.1] tracking-tight mb-8">
+              Grow your business with <span className="bg-gradient-to-r from-[#1e40af] via-[#107b61] to-[#22c55e] bg-clip-text text-transparent">proven <br /> strategies.</span>
             </h1>
 
             {/* Description */}
@@ -47,7 +45,7 @@ export function Header84() {
 
           {/* Right Image/Card Section */}
           <div className="relative">
-            <div className="rounded-[40px] overflow-hidden bg-[#e5e7eb] aspect-[4/5] lg:aspect-square flex items-end justify-center relative shadow-sm">
+            <div className="rounded-[15px] overflow-hidden bg-[#e5e7eb] aspect-[4/5] lg:aspect-square flex items-end justify-center relative shadow-sm">
               {/* Main Illustration Placeholder */}
               <img 
                 src="/img/hero_image.jpg" 

@@ -117,7 +117,7 @@ export function Faq13() {
       <div className="container max-w-5xl mx-auto">
         
         {/* Section Heading */}
-        <h2 className="text-4xl text-center md:text-6xl font-extrabold text-[#0f172a] mb-12 tracking-tight">
+        <h2 className="text-4xl text-center md:text-6xl font-bold text-[#0f172a] mb-12 tracking-tight">
           FAQs
         </h2>
 
@@ -129,7 +129,7 @@ export function Faq13() {
             return (
               <div 
                 key={index}
-                className={`group border border-slate-100 rounded-[28px] transition-all duration-300 ${
+                className={`group border border-slate-100 rounded-[15px] transition-all duration-300 ${
                   isOpen ? 'bg-white shadow-sm ring-1 ring-slate-200' : 'bg-transparent hover:bg-slate-50'
                 }`}
               >
@@ -175,7 +175,7 @@ export function Faq13() {
         </div>
 
         {/* Still have questions? Section */}
-        <div className="mt-16 p-10 bg-[#f8fafc] rounded-[32px] flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="mt-16 p-10 bg-[aliceblue] rounded-[15px] flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <h4 className="text-2xl font-bold text-[#0f172a] mb-2">Still have questions?</h4>
             <p className="text-slate-500">Book a free consultation and let's talk about your growth.</p>

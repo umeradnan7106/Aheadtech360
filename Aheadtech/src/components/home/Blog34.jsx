@@ -55,10 +55,10 @@ export function Blog34() {
           {stories.map((story, index) => (
             <div 
               key={index} 
-              className="group bg-white rounded-[45px] p-4 pb-12 border border-slate-50 shadow-[0_10px_40px_rgba(0,0,0,0.03)] hover:shadow-2xl hover:shadow-slate-200/50 transition-all duration-500 flex flex-col h-full"
+              className="group bg-white rounded-[15px] p-4 pb-12 border border-slate-50 shadow-[0_10px_40px_rgba(0,0,0,0.03)] hover:shadow-2xl hover:shadow-slate-200/50 transition-all duration-500 flex flex-col h-full"
             >
               {/* Image Container */}
-              <div className="overflow-hidden rounded-[32px] aspect-[4/3] mb-8">
+              <div className="overflow-hidden rounded-[7px] aspect-[4/3] mb-8">
                 <img 
                   src={story.image} 
                   alt={story.title}

@@ -192,7 +192,7 @@ export function Pricing7() {
         </div>
 
         {/* Card Body */}
-        <div className="bg-white rounded-[45px] shadow-[0_30px_60px_-15px_rgba(0,0,0,0.1)] border border-slate-100 p-10 md:p-14">
+        <div className="bg-white rounded-[15px] shadow-[0_30px_60px_-15px_rgba(0,0,0,0.1)] border border-slate-100 p-10 md:p-14">
           
           <div className="flex justify-between items-start mb-10">
             <div>

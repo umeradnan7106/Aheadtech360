@@ -67,7 +67,7 @@ export function Footer3() {
           {/* Links Columns */}
           <div className="lg:col-span-7 grid grid-cols-2 md:grid-cols-3 gap-8">
             <div>
-              <h4 className="text-[#0f172a] font-bold uppercase tracking-widest text-[10px] mb-6">Company</h4>
+              <h4 className="text-[#0f172a] font-bold uppercase tracking-widest text-[15px] mb-6">Company</h4>
               <ul className="space-y-4 text-slate-500 font-bold text-sm">
                 <li><a href="#" className="hover:text-emerald-500 transition-colors">About Us</a></li>
                 <li><a href="#" className="hover:text-emerald-500 transition-colors">Our Stories</a></li>
@@ -76,7 +76,7 @@ export function Footer3() {
               </ul>
             </div>
             <div>
-              <h4 className="text-[#0f172a] font-bold uppercase tracking-widest text-[10px] mb-6">Services</h4>
+              <h4 className="text-[#0f172a] font-bold uppercase tracking-widest text-[15px] mb-6">Services</h4>
               <ul className="space-y-4 text-slate-500 font-bold text-sm">
                 <li><a href="#" className="hover:text-emerald-500 transition-colors">Paid Search</a></li>
                 <li><a href="#" className="hover:text-emerald-500 transition-colors">Social Ads</a></li>
@@ -85,7 +85,7 @@ export function Footer3() {
               </ul>
             </div>
             <div className="col-span-2 md:col-span-1">
-              <h4 className="text-[#0f172a] font-bold uppercase tracking-widest text-[10px] mb-6">Follow Us</h4>
+              <h4 className="text-[#0f172a] font-bold uppercase tracking-widest text-[15px] mb-6">Follow Us</h4>
               <div className="flex gap-3">
                 <a 
                   href="https://facebook.com/aheadtech360" 

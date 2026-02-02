@@ -179,7 +179,7 @@ export function Layout522() {
           {services.map((service, index) => (
             <div 
               key={index}
-              className={`relative group overflow-hidden rounded-[35px] h-100 flex flex-col justify-end p-8 md:p-8 transition-all duration-500 hover:shadow-2xl ${
+              className={`relative group overflow-hidden rounded-[15px] h-100 flex flex-col justify-end p-8 md:p-8 transition-all duration-500 hover:shadow-2xl ${
                 service.isWide ? 'md:col-span-2' : 'md:col-span-1'
               }`}
             >
@@ -197,7 +197,7 @@ export function Layout522() {
               {/* Content Area */}
               <div className="relative z-10">
                 {/* Service Tag */}
-                <span className="inline-block bg-white/20 backdrop-blur-md text-white text-[10px] font-black uppercase tracking-widest px-4 py-1.5 rounded-full mb-6 border border-white/30">
+                <span className="inline-block bg-[#27B170] text-white text-[10px] font-black uppercase tracking-widest px-4 py-1.5 rounded-full mb-6 border ">
                   {service.tag}
                 </span>
 

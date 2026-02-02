@@ -75,13 +75,13 @@ export function Layout298() {
                 
                 {/* Icon Container */}
                 <div
-                  className={`relative w-20 h-20 ${step.iconBg} rounded-[28px] flex items-center justify-center mb-8 transition-all duration-500 group-hover:scale-110 group-hover:rotate-3 shadow-sm border border-white`}
+                  className={`relative w-20 h-20 ${step.iconBg} rounded-[15px] flex items-center justify-center mb-8 transition-all duration-500 group-hover:scale-110 group-hover:rotate-3 shadow-sm border-2 border-[#1f3a7a]`}
                 >
                   <img
                     src={step.image}
                     alt={step.alt}
-                    width={36}
-                    height={36}
+                    width={50}
+                    height={50}
                     className="object-contain"
                   />
 

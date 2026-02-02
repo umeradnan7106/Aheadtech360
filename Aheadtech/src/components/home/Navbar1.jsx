@@ -1,8 +1,6 @@
 "use client";
-// "use strict";
 
 import { useEffect } from "react";
-// import { motion, AnimatePresence } from "framer-motion";
 
 import { Button, useMediaQuery } from "@relume_io/relume-ui";
 import { AnimatePresence, motion } from "framer-motion";
@@ -72,7 +70,7 @@ export function Navbar1() {
   return (
 
 
-    <nav className="fixed top-0 left-0 right-0 z-[100] bg-white/80 backdrop-blur-xl border-b border-slate-100 font-sans">
+    <nav className="relative bg-white/80 backdrop-blur-xl border-b border-slate-100 font-sans">
       <div className="container max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-20 md:h-24">
           
@@ -182,7 +180,7 @@ export function Navbar1() {
           >
             <div className="container mx-auto px-6 py-8 flex flex-col gap-4">
               {navLinks.map((link) => (
-                <a key={link.name} href={link.href} className="text-2xl font-black text-[#0f172a]">
+                <a key={link.name} href={link.href} className="font-bold text-[#0f172a]">
                   {link.name}
                 </a>
               ))}
@@ -190,7 +188,7 @@ export function Navbar1() {
               {/* Mobile Resources Submenu */}
               <div className="py-4 border-t border-slate-50">
                 <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 mb-4">Resources</p>
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 gap-4">
                   {resourceLinks.map((item) => (
                     <a key={item.name} href={item.href} className="text-lg font-bold text-slate-600">
                       {item.name}

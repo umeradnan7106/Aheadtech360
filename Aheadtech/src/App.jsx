@@ -40,7 +40,7 @@ function App() {
       <Testimonial42 />
       <Logo3 />
       <Blog34 />
-      <Pricing7 />
+      {/* <Pricing7 /> */}
       <Faq13 />
       <Footer3/>
 
