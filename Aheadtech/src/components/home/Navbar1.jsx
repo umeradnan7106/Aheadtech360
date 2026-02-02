@@ -70,7 +70,7 @@ export function Navbar1() {
   return (
 
 
-    <nav className="relative bg-white/80 backdrop-blur-xl border-b border-slate-100 font-sans">
+    <nav className="relative bg-white/80 backdrop-blur-xl border-b border-slate-100 font-sans z-10">
       <div className="container max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-20 md:h-24">
           
