@@ -25,8 +25,3 @@ img {
 .animate-loop-horizontally {
   animation: loop-horizontally 30s linear infinite;
 }
-
-/* Hover pe pause ho jaye */
-.animate-loop-horizontally:hover {
-  animation-play-state: paused;
-}

@@ -93,7 +93,7 @@ export function Navbar1() {
               <a
                 key={link.name}
                 href={link.href}
-                className="px-4 py-2 text-sm font-bold text-slate-600 hover:text-[#213a73] transition-colors"
+                className="px-4 py-2 font-bold text-slate-600 hover:text-[#213a73] transition-colors text-[17px]"
               >
                 {link.name}
               </a>
@@ -105,7 +105,7 @@ export function Navbar1() {
               onMouseEnter={() => setIsDropdownOpen(true)}
               onMouseLeave={() => setIsDropdownOpen(false)}
             >
-              <button className="flex items-center gap-1 px-4 py-2 text-sm font-bold text-slate-600 hover:text-[#213a73] transition-colors">
+              <button className="flex items-center gap-1 px-4 py-2 text-[17px] font-bold text-slate-600 hover:text-[#213a73] transition-colors">
                 Resources
                 <svg className={`w-4 h-4 transition-transform duration-300 ${isDropdownOpen ? 'rotate-180' : ''}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
                   <path d="M6 9l6 6 6-6" strokeLinecap="round" strokeLinejoin="round"/>

@@ -50,7 +50,7 @@ export function Footer3() {
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
                   </svg>
                 </div>
-                <span className="text-slate-600 font-bold">+1 (212) 555-0147</span>
+                <span className="text-slate-600 font-bold">+1 (251) 373-2311</span>
               </div>
               <div className="flex items-center gap-3 group cursor-pointer">
                 <div className="w-8 h-8 rounded-lg bg-slate-50 flex items-center justify-center text-slate-400 group-hover:bg-emerald-50 group-hover:text-emerald-500 transition-colors">
@@ -59,7 +59,7 @@ export function Footer3() {
                     <polyline points="22,6 12,13 2,6"/>
                   </svg>
                 </div>
-                <span className="text-slate-600 font-bold">growth@agency.com</span>
+                <span className="text-slate-600 font-bold">info@aheadtech360.com</span>
               </div>
             </div>
           </div>
@@ -79,16 +79,17 @@ export function Footer3() {
               <h4 className="text-[#0f172a] font-bold uppercase tracking-widest text-[15px] mb-6">Services</h4>
               <ul className="space-y-4 text-slate-500 font-bold text-sm">
                 <li><a href="#" className="hover:text-emerald-500 transition-colors">Paid Search</a></li>
-                <li><a href="#" className="hover:text-emerald-500 transition-colors">Social Ads</a></li>
-                <li><a href="#" className="hover:text-emerald-500 transition-colors">SEO Growth</a></li>
-                <li><a href="#" className="hover:text-emerald-500 transition-colors">Web Dev</a></li>
+                <li><a href="#" className="hover:text-emerald-500 transition-colors">Social Media Marketing</a></li>
+                <li><a href="#" className="hover:text-emerald-500 transition-colors">SEO (Search Engine Optimization)</a></li>
+                <li><a href="#" className="hover:text-emerald-500 transition-colors">Web Development</a></li>
+                <li><a href="#" className="hover:text-emerald-500 transition-colors">CRO (Conversion Rate Optimization)</a></li>
               </ul>
             </div>
             <div className="col-span-2 md:col-span-1">
               <h4 className="text-[#0f172a] font-bold uppercase tracking-widest text-[15px] mb-6">Follow Us</h4>
               <div className="flex gap-3">
                 <a 
-                  href="https://facebook.com/aheadtech360" 
+                  href="https://www.facebook.com/aheadtech360/" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-xl bg-slate-50 flex items-center justify-center text-slate-600 hover:bg-[#1877f2] hover:text-white transition-all"
@@ -98,7 +99,7 @@ export function Footer3() {
                 </a>
                 
                 <a 
-                  href="https://instagram.com/aheadtech360" 
+                  href="https://www.instagram.com/aheadtech360/" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-xl bg-slate-50 flex items-center justify-center text-slate-600 hover:bg-gradient-to-br hover:from-purple-600 hover:to-pink-500 hover:text-white transition-all"
@@ -108,17 +109,7 @@ export function Footer3() {
                 </a>
                 
                 <a 
-                  href="https://twitter.com/aheadtech360" 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-xl bg-slate-50 flex items-center justify-center text-slate-600 hover:bg-[#1da1f2] hover:text-white transition-all"
-                  aria-label="Twitter"
-                >
-                  <FaTwitter className="w-5 h-5" />
-                </a>
-                
-                <a 
-                  href="https://linkedin.com/company/aheadtech360" 
+                  href="https://www.linkedin.com/company/aheadtech360" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-xl bg-slate-50 flex items-center justify-center text-slate-600 hover:bg-[#0a66c2] hover:text-white transition-all"
@@ -134,7 +125,7 @@ export function Footer3() {
         {/* Footer Bottom */}
         <div className="pt-8 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-slate-400 text-xs font-medium">
-            © 2024 AheadTech360. All rights reserved.
+            © 2026 AheadTech360. All rights reserved.
           </p>
           <div className="flex gap-8 text-xs font-bold text-slate-400">
             <a href="#" className="hover:text-[#0f172a] transition-colors">Privacy Policy</a>
