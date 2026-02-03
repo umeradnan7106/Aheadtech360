@@ -1,9 +1,5 @@
-import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
-// import { createBrowserRouter } from 'react-router-dom'
-
-// import { Index } from './components/home';
-
 
 import { Navbar1 } from './components/home/Navbar1';
 import { Header84 } from "./components/home/Header84";
@@ -17,21 +13,12 @@ import { Blog34 } from "./components/home/Blog34";
 import { Pricing7 } from "./components/home/Pricing7";
 import { Faq13 } from "./components/home/Faq13";
 import { Footer3 } from './components/home/Footer3';
+import ContactPage from './components/contact';
 
-
-function App() {
-  const [count, setCount] = useState(0)
-
-  // const router = createBrowserRouter ([
-
-  //   ]);
-
+// Home Page Component
+function HomePage() {
   return (
     <>
-
-    {/* <Index /> */}
-
-      <Navbar1 />
       <Header84 />
       <Layout522 />
       <Layout358 />
@@ -40,11 +27,21 @@ function App() {
       <Testimonial42 />
       <Logo3 />
       <Blog34 />
-      {/* <Pricing7 /> */}
       <Faq13 />
       <Footer3/>
-
     </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Navbar1 />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
+    </Router>
   )
 }
 

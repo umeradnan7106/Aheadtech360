@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 import { Button, useMediaQuery } from "@relume_io/relume-ui";
 import { AnimatePresence, motion } from "framer-motion";
@@ -76,7 +77,7 @@ export function Navbar1() {
           
           {/* Brand Logo */}
           <div className="flex-shrink-0">
-            <a href="/" className="flex items-center gap-2 group">
+            <Link to="/" className="flex items-center gap-2 group">
               {/* <div className="w-8 h-8 bg-[#213a73] rounded-lg flex items-center justify-center transition-transform group-hover:rotate-6">
                 <div className="w-4 h-4 bg-emerald-400 rounded-sm"></div>
               </div> */}
@@ -84,7 +85,7 @@ export function Navbar1() {
                 AhedaTech360.
               </span> */}
               <img src="/img/Ahead-Logo-right-balaning.png" alt="Logo" height="auto" width={180}/>
-            </a>
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
@@ -137,9 +138,9 @@ export function Navbar1() {
 
           {/* Desktop Actions */}
           <div className="hidden lg:flex items-center gap-4">
-            <button className="px-6 py-2.5 text-sm font-bold text-[#213a73] hover:text-slate-900 transition-colors cursor-pointer">
+            <Link to="/contact" className="px-6 py-2.5 text-sm font-bold text-[#213a73] hover:text-slate-900 transition-colors cursor-pointer">
               Contact
-            </button>
+            </Link>
             <button className="bg-[#213a73] text-white px-6 py-3 rounded-2xl text-sm font-bold hover:bg-[#1a2e5c] transition-all shadow-lg shadow-blue-900/10 cursor-pointer">
               Free Audit
             </button>
@@ -201,9 +202,9 @@ export function Navbar1() {
                 <button className="w-full bg-[#213a73] text-white py-4 rounded-2xl font-bold cursor-pointer">
                   Free Audit
                 </button>
-                <button className="w-full bg-slate-50 text-slate-900 py-4 rounded-2xl font-bold cursor-pointer">
+                <Link to="/contact" className="w-full bg-slate-50 text-slate-900 py-4 rounded-2xl font-bold cursor-pointer text-center">
                   Contact Us
-                </button>
+                </Link>
               </div>
             </div>
           </motion.div>
