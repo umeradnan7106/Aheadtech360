@@ -81,7 +81,7 @@ export function Layout358() {
             {/* Content Side */}
             <div className="flex flex-col justify-center p-10 md:p-16 lg:p-20 bg-[aliceblue]">
               <div className="mb-6">
-                <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-50 border border-slate-100 text-[14px] font-bold uppercase tracking-widest text-slate-400">
+                <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#27b170] border border-slate-100 text-[14px] font-bold uppercase tracking-widest text-white">
                   Trust & Performance
                 </span>
               </div>
@@ -127,7 +127,7 @@ export function Layout358() {
                 </div>
                 <div>
                   <p className="text-[#1f3a7a] text-[10px] font-black uppercase tracking-widest opacity-80">Certified</p>
-                  <p className="text-[#1f3a7a] font-bold text-sm">Shopify Plus Partner</p>
+                  <p className="text-[#1f3a7a] font-bold text-sm">Shopify Service Partner</p>
                 </div>
               </div> 
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar1 } from "./components/Navbar1";
+import { Navbar1 } from "../../Navbar1";
 import { Header84 } from "./components/Header84";
 import { Layout522 } from "./components/Layout522";
 import { Layout358 } from "./components/Layout358";
