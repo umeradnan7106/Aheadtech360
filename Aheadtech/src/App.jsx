@@ -14,6 +14,10 @@ import { Pricing7 } from "./components/home/Pricing7";
 import { Faq13 } from "./components/home/Faq13";
 import { Footer3 } from './components/home/Footer3';
 import Contact from './components/contact';
+import About from './components/about';
+import Services from './components/services';
+import Portfolio from './components/portfolio';
+import Policies from './components/policies';
 
 // Home Page Component
 function HomePage() {
@@ -39,6 +43,10 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/policies" element={<Policies />} />
       </Routes>
       <Footer3 />
     </Router>
