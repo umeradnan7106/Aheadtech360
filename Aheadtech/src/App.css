@@ -13,7 +13,7 @@ img {
     user-select: none;
 }
 
-@keyframes loop-horizontally {
+/* @keyframes loop-horizontally {
   from {
     transform: translateX(0);
   }
@@ -24,4 +24,26 @@ img {
 
 .animate-loop-horizontally {
   animation: loop-horizontally 30s linear infinite;
+} */
+
+
+@keyframes loop-horizontally {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.333%); /* Only move one set (1/3 of total) */
+  }
+}
+
+.animate-loop-horizontally {
+  animation: loop-horizontally 20s linear infinite;
+  /* Removed animation-delay to start immediately */
+  display: flex;
+  width: max-content;
+}
+
+/* Pause on hover (optional) */
+.animate-loop-horizontally:hover {
+  animation-play-state: paused;
 }
