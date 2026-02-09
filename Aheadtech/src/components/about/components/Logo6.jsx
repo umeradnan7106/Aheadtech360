@@ -4,54 +4,80 @@ import React from "react";
 
 export function Logo6() {
   return (
-    <section id="relume" className="px-[5%] py-12 md:py-16 lg:py-20">
-      <div className="container">
-        <h1 className="mx-auto mb-8 w-full max-w-lg text-center text-base font-bold leading-[1.2] md:mb-10 md:text-md md:leading-[1.2] lg:mb-12">
-          Trusted by growing businesses across America
-        </h1>
-        <div className="grid grid-cols-2 gap-2 md:grid-cols-3">
-          <div className="flex w-full items-start justify-center justify-self-center bg-neutral-lightest px-4 pb-4 pt-[0.875rem] md:p-[0.875rem]">
-            <img
-              src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
-              className="max-h-12 md:max-h-14"
-              alt="Webflow logo 1"
-            />
-          </div>
-          <div className="flex w-full items-start justify-center justify-self-center bg-neutral-lightest px-4 pb-4 pt-[0.875rem] md:p-[0.875rem]">
-            <img
-              src="https://d22po4pjz3o32e.cloudfront.net/relume-logo.svg"
-              className="max-h-12 md:max-h-14"
-              alt="Relume logo 1"
-            />
-          </div>
-          <div className="flex w-full items-start justify-center justify-self-center bg-neutral-lightest px-4 pb-4 pt-[0.875rem] md:p-[0.875rem]">
-            <img
-              src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
-              className="max-h-12 md:max-h-14"
-              alt="Webflow logo 2"
-            />
-          </div>
-          <div className="flex w-full items-start justify-center justify-self-center bg-neutral-lightest px-4 pb-4 pt-[0.875rem] md:p-[0.875rem]">
-            <img
-              src="https://d22po4pjz3o32e.cloudfront.net/relume-logo.svg"
-              className="max-h-12 md:max-h-14"
-              alt="Relume logo 2"
-            />
-          </div>
-          <div className="flex w-full items-start justify-center justify-self-center bg-neutral-lightest px-4 pb-4 pt-[0.875rem] md:p-[0.875rem]">
-            <img
-              src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
-              className="max-h-12 md:max-h-14"
-              alt="Webflow logo 3"
-            />
-          </div>
-          <div className="flex w-full items-start justify-center justify-self-center bg-neutral-lightest px-4 pb-4 pt-[0.875rem] md:p-[0.875rem]">
-            <img
-              src="https://d22po4pjz3o32e.cloudfront.net/relume-logo.svg"
-              className="max-h-12 md:max-h-14"
-              alt="Relume logo 3"
-            />
-          </div>
+    <section className="overflow-hidden py-12 md:py-16 lg:py-20 bg-slate-50">
+      <div className="container mx-auto mb-12 w-full max-w-3xl px-6 md:mb-16 lg:mb-20">
+        <h2 className="text-4xl text-center md:text-6xl font-bold text-[#0f172a] mb-12 tracking-tight">
+          Trusted by growing businesses across the US
+        </h2>
+      </div>
+      
+      <div className="flex items-center">
+        {/* First Loop */}
+        <div className="flex shrink-0 animate-loop-horizontally items-center">
+          <img
+            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14 grayscale-0 transition-all opacity-100 hover:opacity-100"
+            src="/img/Afapparel-logo.jpeg"
+            alt="Webflow"
+          />
+          <img
+            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14 grayscale-0 transition-all opacity-100 hover:opacity-100"
+            src="/img/stellar-logo.jpeg"
+            alt="Relume"
+          />
+          <img
+            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14 grayscale-0 transition-all opacity-100 hover:opacity-100"
+            src="/img/macp-logo.jpeg"
+            alt="Webflow"
+          />
+          <img
+            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14 grayscale-0 transition-all opacity-100 hover:opacity-100"
+            src="/img/ezdtfmaker-logo.jpeg"
+            alt="Relume"
+          />
+          <img
+            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14 grayscale-0 transition-all opacity-100 hover:opacity-100"
+            src="/img/eztmart-logo.jpeg"
+            alt="Webflow"
+          />
+          <img
+            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14 grayscale-0 transition-all opacity-100 hover:opacity-100"
+            src="/img/Passion_Logo-09.avif"
+            alt="Relume"
+          />
+        </div>
+        
+        {/* Second Loop - Duplicate for seamless effect */}
+        <div className="flex shrink-0 animate-loop-horizontally items-center">
+          <img
+            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14 grayscale-0 transition-all opacity-100 hover:opacity-100"
+            src="/img/Afapparel-logo.jpeg"
+            alt="Webflow"
+          />
+          <img
+            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14 grayscale-0 transition-all opacity-100 hover:opacity-100"
+            src="/img/stellar-logo.jpeg"
+            alt="Relume"
+          />
+          <img
+            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14 grayscale-0 transition-all opacity-100 hover:opacity-100"
+            src="/img/macp-logo.jpeg"
+            alt="Webflow"
+          />
+          <img
+            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14 grayscale-0 transition-all opacity-100 hover:opacity-100"
+            src="/img/ezdtfmaker-logo.jpeg"
+            alt="Relume"
+          />
+          <img
+            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14 grayscale-0 transition-all opacity-100 hover:opacity-100"
+            src="/img/eztmart-logo.jpeg"
+            alt="Webflow"
+          />
+          <img
+            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14 grayscale-0 transition-all opacity-100 hover:opacity-100"
+            src="/img/Passion_Logo-09.avif"
+            alt="Relume"
+          />
         </div>
       </div>
     </section>
