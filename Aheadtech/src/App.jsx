@@ -18,6 +18,7 @@ import About from './components/about';
 import Services from './components/services';
 import Portfolio from './components/portfolio';
 import Policies from './components/policies';
+import TermsAndConditions from './components/terms-&-conditions';
 
 // Home Page Component
 function HomePage() {
@@ -47,6 +48,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/policies" element={<Policies />} />
+        <Route path="/terms&conditions" element={<TermsAndConditions />} />
       </Routes>
       <Footer3 />
     </Router>
