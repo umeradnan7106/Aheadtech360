@@ -20,64 +20,75 @@ export default function Policies() {
           <div className="bg-white rounded-2xl p-8 shadow-lg">
             <h2 className="text-2xl font-bold text-[#213a73] mb-4">Privacy Policy</h2>
             <p className="text-slate-600 mb-4">
-              At AheadTech360, we are committed to protecting your privacy and ensuring the security of your personal information.
-              This policy outlines how we collect, use, and safeguard your data.
+              We aim for complete client satisfaction and handle refunds fairly and transparently:
             </p>
             <ul className="list-disc list-inside text-slate-600 space-y-2">
-              <li>We collect only necessary information to provide our services</li>
-              <li>Your data is stored securely and never shared without consent</li>
-              <li>You have the right to access, modify, or delete your information</li>
-              <li>We comply with all applicable data protection regulations</li>
+              <li>A full refund may be available within 14 days of the initial payment if no work has started.</li>
+              <li>Partial refunds may be considered depending on progress and completed deliverables.</li>
+              <li>Custom development and approved builds are non-refundable once work begins.</li>
+              <li>All refund requests must be submitted in writing for review.</li>
             </ul>
+            <p className="text-slate-600 mb-4 mt-4">
+              Our goal is simple: keep your information safe while helping your business grow with confidence.
+            </p>
           </div>
 
           {/* Terms of Service */}
           <div className="bg-white rounded-2xl p-8 shadow-lg">
             <h2 className="text-2xl font-bold text-[#213a73] mb-4">Terms of Service</h2>
             <p className="text-slate-600 mb-4">
-              By using our services, you agree to the following terms and conditions:
+              By working with AheadTech360 or using our website, you agree to the following terms:
             </p>
             <ul className="list-disc list-inside text-slate-600 space-y-2">
-              <li>Services are provided on an as-agreed basis</li>
-              <li>All deliverables remain our intellectual property until payment is received</li>
-              <li>Clients must provide accurate information and timely feedback</li>
-              <li>We reserve the right to refuse service at our discretion</li>
+              <li>Services are delivered based on the scope and agreement approved with the client.</li>
+              <li>All work, deliverables, and strategic assets remain our property until full payment is received.</li>
+              <li>Clients are responsible for providing accurate information, approvals, and timely feedback.</li>
+              <li>We reserve the right to decline or discontinue service if requests fall outside ethical or professional standards.</li>
             </ul>
+            <p className="text-slate-600 mb-4 mt-4">
+              These terms help ensure clarity, accountability, and smooth collaboration on both sides.
+            </p>
           </div>
 
           {/* Refund Policy */}
           <div className="bg-white rounded-2xl p-8 shadow-lg">
             <h2 className="text-2xl font-bold text-[#213a73] mb-4">Refund Policy</h2>
             <p className="text-slate-600 mb-4">
-              We strive for 100% client satisfaction. Our refund policy is as follows:
+              We aim for complete client satisfaction and handle refunds fairly and transparently:
             </p>
             <ul className="list-disc list-inside text-slate-600 space-y-2">
-              <li>Full refund available within 14 days of initial payment if no work has commenced</li>
-              <li>Partial refunds may be considered based on work completed</li>
-              <li>Custom development work is non-refundable once approved</li>
-              <li>Refund requests must be submitted in writing</li>
+              <li>A full refund may be available within 14 days of the initial payment if no work has started.</li>
+              <li>Partial refunds may be considered depending on progress and completed deliverables.</li>
+              <li>Custom development and approved builds are non-refundable once work begins.</li>
+              <li>All refund requests must be submitted in writing for review.</li>
             </ul>
+            <p className="text-slate-600 mb-4 mt-4">
+              We believe in long-term partnerships, and we always work to resolve concerns before they become issues.
+            </p>
           </div>
 
           {/* Cookie Policy */}
           <div className="bg-white rounded-2xl p-8 shadow-lg">
             <h2 className="text-2xl font-bold text-[#213a73] mb-4">Cookie Policy</h2>
             <p className="text-slate-600 mb-4">
-              We use cookies to enhance your browsing experience:
+              AheadTech360 uses cookies to improve your browsing experience and website performance:
             </p>
             <ul className="list-disc list-inside text-slate-600 space-y-2">
-              <li>Essential cookies for site functionality</li>
-              <li>Analytics cookies to understand user behavior</li>
-              <li>Marketing cookies for personalized content (with consent)</li>
-              <li>You can manage cookie preferences in your browser settings</li>
+              <li>Essential cookies help the site function properly.</li>
+              <li>Analytics cookies allow us to understand visitor behavior and improve usability.</li>
+              <li>Marketing cookies may be used for personalized content and advertising, only with consent.</li>
+              <li>You can manage or disable cookies anytime through your browser settings.</li>
             </ul>
+            <p className="text-slate-600 mb-4 mt-4">
+              Cookies help us create a smoother, faster, and more relevant experience for every visitor.
+            </p>
           </div>
 
           {/* Contact Section */}
           <div className="bg-gradient-to-br from-slate-50 to-blue-50 rounded-2xl p-8 border border-slate-200">
             <h2 className="text-2xl font-bold text-[#213a73] mb-4">Questions About Our Policies?</h2>
             <p className="text-slate-600 mb-6">
-              If you have any questions or concerns about our policies, please don't hesitate to reach out to our team.
+              If you have any questions about our policies or how your data is handled, feel free to contact us anytime. We’re always happy to clarify.
             </p>
             <a
               href="/contact"

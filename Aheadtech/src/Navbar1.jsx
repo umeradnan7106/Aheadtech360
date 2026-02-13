@@ -60,7 +60,7 @@ export function Navbar1() {
     { name: "About", href: "/about" },
     { name: "Services", href: "/services" },
     { name: "Portfolio", href: "/portfolio" },
-    { name: "Policies", href: "/policies" },
+    // { name: "Policies", href: "/policies" },
   ];
 
   const resourceLinks = [

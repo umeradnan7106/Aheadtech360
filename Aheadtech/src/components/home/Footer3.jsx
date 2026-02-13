@@ -128,9 +128,9 @@ export function Footer3() {
             © 2026 AheadTech360. All rights reserved.
           </p>
           <div className="flex gap-8 text-xs font-bold text-slate-400">
-            <a href="#" className="hover:text-[#0f172a] transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-[#0f172a] transition-colors">Terms of Service</a>
-            <a href="#" className="hover:text-[#0f172a] transition-colors">Cookie Settings</a>
+            <a href="/policies" className="hover:text-[#0f172a] transition-colors">Privacy Policy</a>
+            <a href="/policies" className="hover:text-[#0f172a] transition-colors">Terms of Service</a>
+            <a href="/policies" className="hover:text-[#0f172a] transition-colors">Cookie Settings</a>
           </div>
         </div>
       </div>
