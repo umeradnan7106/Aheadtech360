@@ -5,21 +5,23 @@ import React from "react";
 
 export function Header62() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
-      <div className="container max-w-lg text-center">
-        <p className="mb-3 font-semibold md:mb-4">Results</p>
-        <h1 className="mb-5 text-6xl font-bold md:mb-6 md:text-9xl lg:text-10xl">
+    <section id="relume" className="bg-[#fcfcfc] px-6 py-16 md:py-24 lg:py-28">
+      <div className="container max-w-3xl text-center mx-auto">
+        <p className="mb-4 font-bold uppercase tracking-[0.2em] text-[14px] text-[#2db074]">Results</p>
+        <h1 className="mb-6 text-5xl font-bold md:text-7xl lg:text-8xl text-[#0f172a] tracking-tight leading-[1.1]">
           Work that grows businesses
         </h1>
-        <p className="md:text-md">
+        <p className="text-lg md:text-xl text-slate-600 leading-relaxed">
           Real campaigns. Real growth. Real businesses transformed across
           industries.
         </p>
-        <div className="mt-6 flex items-center justify-center gap-x-4 md:mt-8">
-          <Button title="Audit">Audit</Button>
-          <Button title="Consult" variant="secondary">
+        <div className="mt-8 flex items-center justify-center gap-4">
+          <button className="bg-[#1f3a7a] text-white px-8 py-4 rounded-2xl font-bold hover:bg-[#1a2e5c] transition-all cursor-pointer">
+            Audit
+          </button>
+          <button className="bg-white border border-gray-200 text-slate-900 px-8 py-4 rounded-2xl font-bold hover:bg-gray-50 transition-all cursor-pointer">
             Consult
-          </Button>
+          </button>
         </div>
       </div>
     </section>
