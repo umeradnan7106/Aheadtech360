@@ -12,7 +12,7 @@ export function Layout204() {
           <div className="order-2 md:order-1">
             <div className="rounded-[15px] overflow-hidden shadow-lg">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRStA3DEJRuSAQf2I3W6jORW3IO8Bujb5E9QQ&s"
                 className="w-full object-cover"
                 alt="Relume placeholder image"
               />

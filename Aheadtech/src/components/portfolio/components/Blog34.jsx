@@ -6,12 +6,12 @@ import { RxChevronRight } from "react-icons/rx";
 
 export function Blog34() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
-      <div className="container">
+    <section id="relume" className="px-[5%] py-10 md:py-12 lg:py-16">
+      <div className="container mx-auto">
         <div className="mb-12 md:mb-18 lg:mb-20">
-          <div className="mx-auto w-full max-w-lg text-center">
+          <div className="mx-auto w-full text-center">
             <p className="mb-3 font-semibold md:mb-4">Case studies</p>
-            <h1 className="mb-5 text-6xl font-bold md:mb-6 md:text-9xl lg:text-10xl">
+            <h1 className="mb-5 text-4xl font-bold md:mb-6 md:text-6xl lg:text-10xl">
               How we built their growth
             </h1>
             <p className="md:text-md">

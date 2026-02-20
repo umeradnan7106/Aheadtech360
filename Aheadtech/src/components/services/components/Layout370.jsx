@@ -24,7 +24,7 @@ export function Layout370() {
             <div className="flex flex-col border border-slate-200 rounded-[15px] overflow-hidden shadow-lg hover:shadow-xl transition-all bg-white">
               <div className="flex items-center justify-center overflow-hidden">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
+                  src="https://www.taboola.com/wp-content/uploads-neo/2025/04/best-performance-marketing-software-scaled.jpg"
                   alt="Relume placeholder image 1"
                   className="w-full object-cover hover:scale-110 transition-transform duration-300"
                 />
@@ -48,7 +48,7 @@ export function Layout370() {
             <div className="flex flex-col border border-slate-200 rounded-[15px] overflow-hidden shadow-lg hover:shadow-xl transition-all bg-white">
               <div className="flex items-center justify-center overflow-hidden">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
+                  src="https://timpeter.com/wp-content/uploads/2020/08/svc-digitalmktg.jpg"
                   alt="Relume placeholder image 2"
                   className="w-full object-cover hover:scale-110 transition-transform duration-300"
                 />
@@ -72,7 +72,7 @@ export function Layout370() {
             <div className="grid grid-cols-1 border border-slate-200 rounded-[15px] overflow-hidden shadow-lg hover:shadow-xl transition-all bg-white sm:col-span-2 sm:row-span-1 sm:grid-cols-2">
               <div className="flex items-center justify-center overflow-hidden">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-portrait.svg"
+                  src="https://i0.wp.com/execusense.org/wp-content/uploads/2023/02/What-Does-a-Digital-Strategy-Consultant-Do-1.png?fit=1200%2C1200&ssl=1"
                   alt="Relume placeholder image 3"
                   className="size-full object-cover hover:scale-110 transition-transform duration-300"
                 />

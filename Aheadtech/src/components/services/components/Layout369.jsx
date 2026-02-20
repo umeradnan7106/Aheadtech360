@@ -39,7 +39,7 @@ export function Layout369() {
               </div>
               <div className="flex items-center justify-center overflow-hidden">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-portrait.svg"
+                  src="https://images.squarespace-cdn.com/content/v1/683db14b158de878953aef5c/e7c9d090-5dc8-4d3b-a94b-3cfe6c60683a/is-adr-a-result-driven-approach-for-business-disputes.png"
                   alt="Relume placeholder image 3"
                   className="size-full object-cover hover:scale-110 transition-transform duration-300"
                 />

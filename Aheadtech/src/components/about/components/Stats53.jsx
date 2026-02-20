@@ -1,95 +1,3 @@
-// "use client";
-
-// import { Button } from "@relume_io/relume-ui";
-// import React, { Fragment } from "react";
-// import { RxChevronRight } from "react-icons/rx";
-
-// export function Stats53() {
-//   return (
-//     <section id="relume" className="bg-[#fcfcfc] px-6 py-16 md:py-24 lg:py-28">
-//       <div className="container max-w-7xl mx-auto">
-//         <div className="mb-16 grid grid-cols-1 gap-y-8 md:grid-cols-2 md:gap-x-12 lg:gap-x-20">
-//           <div>
-//             <p className="mb-4 font-bold uppercase tracking-[0.2em] text-[14px] text-[#2db074]">Results</p>
-//             <h2 className="text-4xl font-bold md:text-5xl lg:text-6xl text-[#0f172a] tracking-tight leading-[1.1]">
-//               What we've built together
-//             </h2>
-//           </div>
-//           <div>
-//             <p className="text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-//               Since 2012, we've worked with over 300 SMBs across the US. Our
-//               clients see an average 40% increase in qualified leads within the
-//               first six months. We maintain a 92% client retention rate because
-//               we deliver.
-//             </p>
-//             <div className="flex flex-wrap items-center gap-4">
-//               <button className="bg-[#1f3a7a] text-white px-8 py-4 rounded-2xl font-bold hover:bg-[#1a2e5c] transition-all cursor-pointer">
-//                 See more
-//               </button>
-//               <button className="text-[#1f3a7a] font-bold inline-flex items-center gap-2 hover:gap-3 transition-all cursor-pointer">
-//                 Arrow
-//                 <RxChevronRight className="w-5 h-5" />
-//               </button>
-//             </div>
-//           </div>
-//         </div>
-//         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-//           <Fragment>
-//             <div className="first:group first:is-first flex flex-col justify-center border border-slate-200 p-8 text-center rounded-[15px] bg-white shadow-lg hover:shadow-xl transition-all first:flex first:flex-col first:md:col-span-2 first:md:row-span-1 first:lg:col-span-1 first:lg:row-span-2 [&:nth-last-child(2)]:order-last [&:nth-last-child(2)]:md:order-none">
-//               <p className="mb-2 text-5xl font-bold leading-[1.3] md:text-6xl lg:text-7xl text-[#0f172a]">
-//                 300+
-//               </p>
-//               <h3 className="text-base font-semibold leading-[1.4] md:text-lg text-slate-600">
-//                 Businesses served
-//               </h3>
-//             </div>
-//           </Fragment>
-//           <Fragment>
-//             <div className="rounded-[15px] overflow-hidden shadow-lg">
-//               <img
-//                 className="aspect-[3/2] size-full object-cover"
-//                 src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-//                 alt="Relume placeholder image"
-//               />
-//             </div>
-//           </Fragment>
-//           <Fragment>
-//             <div className="first:group first:is-first flex flex-col justify-center border border-slate-200 p-8 text-center rounded-[15px] bg-white shadow-lg hover:shadow-xl transition-all first:flex first:flex-col first:md:col-span-2 first:md:row-span-1 first:lg:col-span-1 first:lg:row-span-2 [&:nth-last-child(2)]:order-last [&:nth-last-child(2)]:md:order-none">
-//               <p className="mb-2 text-5xl font-bold leading-[1.3] md:text-6xl lg:text-7xl text-[#0f172a]">
-//                 300+
-//               </p>
-//               <h3 className="text-base font-semibold leading-[1.4] md:text-lg text-slate-600">
-//                 Businesses served
-//               </h3>
-//             </div>
-//           </Fragment>
-//           <Fragment>
-//             <div className="first:group first:is-first flex flex-col justify-center border border-slate-200 p-8 text-center rounded-[15px] bg-white shadow-lg hover:shadow-xl transition-all first:flex first:flex-col first:md:col-span-2 first:md:row-span-1 first:lg:col-span-1 first:lg:row-span-2 [&:nth-last-child(2)]:order-last [&:nth-last-child(2)]:md:order-none">
-//               <p className="mb-2 text-5xl font-bold leading-[1.3] md:text-6xl lg:text-7xl text-[#0f172a]">
-//                 300+
-//               </p>
-//               <h3 className="text-base font-semibold leading-[1.4] md:text-lg text-slate-600">
-//                 Businesses served
-//               </h3>
-//             </div>
-//           </Fragment>
-//           <Fragment>
-//             <div className="rounded-[15px] overflow-hidden shadow-lg">
-//               <img
-//                 className="aspect-[3/2] size-full object-cover"
-//                 src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-//                 alt="Relume placeholder image"
-//               />
-//             </div>
-//           </Fragment>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
-
-
-
 "use client";
 
 import { Button } from "@relume_io/relume-ui";
@@ -227,7 +135,7 @@ export function Stats53() {
             <div className="relative rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group">
               <img
                 className="aspect-[3/2] size-full object-cover transition-transform duration-500 group-hover:scale-110"
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+                src="https://www.officespacesoftware.com/wp-content/uploads/The-physical-office-1920.jpg"
                 alt="Client Success"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#000000a8]/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -317,7 +225,7 @@ export function Stats53() {
             <div className="relative rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group">
               <img
                 className="aspect-[3/2] size-full object-cover transition-transform duration-500 group-hover:scale-110"
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+                src="https://cdn.sanity.io/images/uqxwe2qj/production/460ac1ee4f11ccd89ae38e0216ade7602210f702-1086x612.png?q=80&auto=format&fit=clip&dpr=2&w=1086"
                 alt="Team Collaboration"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#000000a8]/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>

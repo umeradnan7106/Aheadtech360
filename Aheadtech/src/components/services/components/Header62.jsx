@@ -5,8 +5,8 @@ import React from "react";
 
 export function Header62() {
   return (
-    <section id="relume" className="bg-[#fcfcfc] px-6 py-16 md:py-24 lg:py-28">
-      <div className="container max-w-3xl text-center mx-auto">
+    <section id="relume" className="bg-[#fcfcfc] px-6 py-16 md:py-24 lg:py-16">
+      <div className="container text-center mx-auto">
         <p className="mb-4 font-bold uppercase tracking-[0.2em] text-[14px] text-[#2db074]">Growth</p>
         <h1 className="mb-6 text-5xl font-bold md:text-7xl lg:text-8xl text-[#0f172a] tracking-tight leading-[1.1]">
           Services that scale
