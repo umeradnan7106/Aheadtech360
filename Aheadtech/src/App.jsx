@@ -19,6 +19,17 @@ import Services from './components/services';
 import Portfolio from './components/portfolio';
 import Policies from './components/policies';
 import TermsAndConditions from './components/terms-&-conditions';
+import Blog from './components/blog';
+import BlogPost from './components/blog-post';
+import CaseStudy from './components/case-study';
+import ConsultingServices from './components/consulting-services';
+import DevelopmentServices from './components/development-services';
+import GoogleAds from './components/google-ads';
+import MarketingServices from './components/marketing-services';
+import MetaAds from './components/meta-ads';
+import Resources from './components/resources';
+import ReviewsTestimonials from './components/reviews-&-testimonials';
+import SEO from './components/seo';
 
 // Home Page Component
 function HomePage() {
@@ -49,6 +60,17 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/policies" element={<Policies />} />
         <Route path="/terms&conditions" element={<TermsAndConditions />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog-post" element={<BlogPost />} />
+        <Route path="/case-study" element={<CaseStudy />} />
+        <Route path="/consulting-services" element={<ConsultingServices />} />
+        <Route path="/development-services" element={<DevelopmentServices />} />
+        <Route path="/google-ads" element={<GoogleAds />} />
+        <Route path="/marketing-services" element={<MarketingServices />} />
+        <Route path="/meta-ads" element={<MetaAds />} />
+        <Route path="/resources" element={<Resources />} />
+        <Route path="/reviews" element={<ReviewsTestimonials />} />
+        <Route path="/seo" element={<SEO />} />
       </Routes>
       <Footer3 />
     </Router>
